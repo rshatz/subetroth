@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 14, 2016, 7:33:17 PM
+    Author     : ritchie
+*/
+@font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); } 
+
+body {
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav {
+    font-family: neutronium;
+    font-size: 200%;
+    letter-spacing: 3px;
+}
+
+
+
