@@ -26,8 +26,16 @@ body {
     letter-spacing: 3px;
 }
 
-a {
-    color: orange;
+.facebook-icon {
+    color: #3b5998;
+}
+
+.youtube-icon {
+    color: #cd201f;
+}
+
+.spotify-icon {
+    color: #2ebd59;
 }
 
 
