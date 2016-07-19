@@ -10,20 +10,37 @@ and open the template in the editor.
 @font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); } 
 
 body {
-    margin-top: 20px;
+  margin-top: 10px;
+  background-color: black;
 }
 
-.navbar-default .navbar-brand {
-    font-family: neutronium;
-    font-size: 700%;
-    letter-spacing: 3px;
-    padding-top: 20px;
+#logo {
+	position: absolute;
+/*
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+*/
+  width: 25%;
+/* 	z-index: 2; */
 }
 
+/*
+#band {
+	width: 100%;
+}
+*/
+
+.navbar-default {
+	background-color: black;
+	border-color: black;
+}
 .navbar-default .navbar-nav {
     font-family: neutronium;
     font-size: 200%;
     letter-spacing: 3px;
+    padding-left: 50%;
 }
 
 .facebook-icon {
@@ -37,5 +54,6 @@ body {
 .spotify-icon {
     color: #2ebd59;
 }
+
 
 
