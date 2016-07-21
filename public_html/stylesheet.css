@@ -10,6 +10,7 @@ and open the template in the editor.
 @font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); } 
 
 body {
+
   background-color: black;
 }
 
@@ -91,15 +92,22 @@ body {
 	
 	background-color: #FA9D04;
 }
-/*
-.navbar-toggle {
-	background-color: #E7450D;
-	border: none;
+
+.navbar-default .navbar-toggle {
+	
+	background-color: transparent;
+	border-color: transparent;
 }
-*/
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	
+	background-color: black;
+	box-shadow: -3px -2px 30px #FA9D04;
+}
 
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:focus {
 	
 	color: black;
 	text-shadow: -3px -2px 30px white;
