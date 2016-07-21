@@ -46,30 +46,45 @@ body {
 }
 
 .navbar-default {
-	background-color: black;
+	background-color: #2b1d0e;
 	border-color: black;
 	margin-bottom: 0px;
 }
 
+/*
+	blood red: 8A0707
+	golden rod: daa520
+	*/
+
 .navbar-default .navbar-nav {
+/*
     font-family: neutronium;
-    font-size: 130%;
+    font-size: 200%;
     letter-spacing: 3px;
-    padding-right: 12%;
+*/
+/*     padding-right: 12%; */
 }
 
-.facebook-icon {
-    color: #3b5998;
+.navbar-toggle {
+	background-color: #000000;
+	border: none;
+}
+.navbar-default .navbar-nav > li > a {
+	font-family: neutronium;
+  font-size: 400%;
+  letter-spacing: 3px;
+	color: #c91900;
+	text-shadow: 1px 1px 1px black;
 }
 
-.youtube-icon {
-    color: #cd201f;
+.navbar-default .navbar-left {
+	margin-top: 0px;
 }
 
-.spotify-icon {
-    color: #2ebd59;
+.social-media-icon {
+	color: #daa520;
+	font-size: 200%;
 }
-
 
 
 
