@@ -33,6 +33,7 @@ body {
 */
 
 @media screen and (max-width: 767px) { 
+	
 	#logo {
 	  position: relative;
     left: auto;
@@ -46,46 +47,67 @@ body {
 }
 
 .navbar-default {
-	background-color: #2b1d0e;
+	
+	background-color: black;
 	border-color: black;
 	margin-bottom: 0px;
 }
 
-/*
-	blood red: 8A0707
-	golden rod: daa520
-	*/
-
-.navbar-default .navbar-nav {
-/*
-    font-family: neutronium;
-    font-size: 200%;
-    letter-spacing: 3px;
-*/
-/*     padding-right: 12%; */
+.navbar-default .navbar-toggle .icon-bar {
+	
+	background-color: #FA9D04;
 }
-
+/*
 .navbar-toggle {
-	background-color: #000000;
+	background-color: #E7450D;
 	border: none;
 }
+*/
 .navbar-default .navbar-nav > li > a {
+	
 	font-family: neutronium;
   font-size: 400%;
   letter-spacing: 3px;
-	color: #c91900;
-	text-shadow: 1px 1px 1px black;
+	color: black;
+	text-shadow: -3px -2px 10px #FA9D04;
 }
 
-.navbar-default .navbar-left {
-	margin-top: 0px;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+	
+	color: black;
+	text-shadow: -3px -2px 30px white;
 }
 
-.social-media-icon {
-	color: #daa520;
+.navbar-default .social-media-icon:hover,
+.navbar-default .social-media-icon:focus {
+	
+	color: black;
+	text-shadow: -3px -2px 30px white;
+}
+.navbar-default .social-media-icon {
+	color: black;
 	font-size: 200%;
+	text-shadow: -3px -2px 10px #FA9D04;
+	padding-right: 10px;
 }
 
+.navbar-fixed-bottom p {
+	font-style: italic;
+	font-size: medium;
+}
+
+/*
+	COLORS:
+	
+	ore dirt: 3F362A
+	blood red: C91900
+	golden rod: DAA520
+	sunset: FA9D04
+	red orange: E7450D;
+	seafoam: #6FCB9F;
+	brown: #2b1d0e
+*/
 
 
 
