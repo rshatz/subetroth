@@ -11,10 +11,10 @@ and open the template in the editor.
 
 body {
 
-  background-color: black;
+  background-color: white;
 }
 
-/*   NAVIGATION BAR   */
+/*	NAVIGATION BAR	*/
 
 #logo {
 	position: absolute;
@@ -85,7 +85,6 @@ body {
 	
 	background-color: black;
 	border-color: black;
-	margin-bottom: 0px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -107,7 +106,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:target {
 	
 	color: black;
 	text-shadow: -3px -2px 30px white;
@@ -125,6 +124,16 @@ body {
 	font-size: medium;
 }
 
+#home-carousel {
+	
+	margin-bottom: 500px; /* delete */
+/*
+  width: auto;
+  height: auto;
+  max-height: 50%;
+  overflow: hidden;
+*/
+}
 /*
 	COLORS:
 	
