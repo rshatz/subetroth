@@ -149,13 +149,14 @@ navbar-default .navbar-form {
 	text-shadow: -3px -2px 30px white;
 }
 
-/*
 .carousel {
+/*
     padding-right: 0px;
     padding-left: 0px;
     padding-bottom: 0px;
-}
 */
+    margin-bottom: 0px;
+}
 
 .navbar-fixed-bottom p {
 	font-style: italic;
@@ -165,6 +166,20 @@ navbar-default .navbar-form {
 .parallax {
     /* The image used */
     background-image: url('img/background1.png');
+
+    /* Full height */
+    height: 10%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.parallax-end {
+    /* The image used */
+    background-image: url('img/background2.png');
 
     /* Full height */
     height: 100%;
