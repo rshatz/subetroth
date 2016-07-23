@@ -98,7 +98,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:target {
+.navbar-default .navbar-nav > li > a:focus {
 	color: black;
 	text-shadow: -3px -2px 30px white;
 }
