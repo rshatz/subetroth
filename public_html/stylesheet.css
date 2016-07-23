@@ -17,7 +17,9 @@ Extra small
 ≥992px	Extra large
 ≥1200px
 */
-
+body, html {
+    height: 100%;
+}
 body {
     background-color: black;
     margin: auto;
@@ -132,7 +134,7 @@ navbar-default .navbar-form {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
 	background-color: black;
-	box-shadow: -3px -2px 30px #FA9D04;
+/*	box-shadow: -3px -2px 30px #FA9D04;*/
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -147,14 +149,33 @@ navbar-default .navbar-form {
 	text-shadow: -3px -2px 30px white;
 }
 
+/*
 .carousel {
-    margin-bottom: 500px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
+*/
 
 .navbar-fixed-bottom p {
 	font-style: italic;
 	font-size: medium;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url('img/background1.png');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
 /*
 	COLORS:
 	
