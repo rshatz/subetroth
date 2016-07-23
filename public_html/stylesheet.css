@@ -28,8 +28,6 @@ body {
 
 #logo {
     position: absolute;
-    width: 22%;
-    height: auto;
     margin-top: 5px;
     z-index: 1;
 }
@@ -47,15 +45,32 @@ body {
 	padding-right: 10px;
 }
 
-/*
-@media (max-width: 700px) {
+@media (min-width: 0px) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 100%;
+    }
+    .navbar-default .social-media-icon {
+		font-size: 100%;
+	}
     #logo {
-        width: 50px;
+        width: 100px;
+        height: auto;
     }
 }
-*/
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (min-width: 544px) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 150%;
+    }
+    .navbar-default .social-media-icon {
+		font-size: 125%;
+	}
+    #logo {
+        width: 120px;
+        height: auto;
+    }
+}
+@media (min-width: 768px) {
     .navbar-default .navbar-nav > li > a {
         font-size: 200%;
     }
@@ -63,25 +78,35 @@ body {
 		font-size: 150%;
 	}
     #logo {
-        width: 120px;
+        width: 22%;
+        height: auto;
     }
-}
-@media (min-width: 991px) {
-    .navbar-default .navbar-nav > li > a {
-        font-size: 300%;
-    }
-    .navbar-default .social-media-icon {
-		font-size: 175%;
-	}
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 992px) { 
 	.navbar-default .navbar-nav > li > a {	
+		font-size: 300%;
+	}
+	.navbar-default .social-media-icon {
+		font-size: 175%;
+	}
+    #logo {
+        width: 22%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-default .navbar-nav > li > a {	
 		font-size: 400%;
 	}
 	.navbar-default .social-media-icon {
 		font-size: 200%;
 	}
+    #logo {
+        width: 22%;
+        height: auto;
+    }
 }
 
 .navbar-default {
@@ -124,10 +149,6 @@ navbar-default .navbar-form {
 
 .carousel {
     margin-bottom: 500px;
-}
-
-.carousel-inner img {
-    -webkit-filter: grayscale(30%);
 }
 
 .navbar-fixed-bottom p {
