@@ -24,7 +24,7 @@ body, html {
 body {
     background-color: black;
     margin: auto;
-/*    max-width: 1400px;*/
+    max-width: 1400px;
 }
 
 /*	NAVIGATION BAR	*/
@@ -45,6 +45,7 @@ body {
 .navbar-default .media-icon {
 	color: black;
 	text-shadow: -3px -2px 10px #FA9D04;
+    padding-right: 10px;
 }
 
 #bandcamp {
@@ -146,7 +147,14 @@ navbar-default .navbar-form {
 	text-shadow: -3px -2px 30px white;
 }
 
-.navbar-default .navbar-nav 
+.navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
+
+.navbar-default .navbar-nav .media-icon:hover {
+    color: black;
+    text-shadow: -3px -2px 30px white;
+}
 
 .navbar-fixed-bottom p {
 	font-style: italic;
