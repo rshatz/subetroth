@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 14, 2016, 7:33:17 PM
+    Author     : ritchie
+*/
+@font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); } 
+
+/*
+Extra small
+<544px	Small
+≥544px	Medium
+≥768px	Large
+≥992px	Extra large
+≥1200px
+*/
+
+body, html {
+    height: 100%;
+}
+body {
+    background-color: black;
+    margin: auto;
+/*    max-width: 1400px;*/
+}
+
+.carousel {
+/*
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+*/
+    margin-bottom: 0px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../img/native-alien/symbol-1.png');
+
+    /* Full height */
+    height: 10%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.parallax-end {
+    /* The image used */
+    background-image: url('../img/native-alien/symbol-2.png');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/*
+	COLORS:
+	
+	ore dirt: 3F362A
+	blood red: C91900
+	golden rod: DAA520
+	sunset: FA9D04
+	red orange: E7450D;
+	seafoam: #6FCB9F;
+	brown: #2b1d0e
+*/
+
+

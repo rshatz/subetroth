@@ -49,6 +49,7 @@ body {
 
 #bandcamp {
     font-family: Helvetica;
+    text-decoration: none;
 }
 
 @media (min-width: 0px) {
@@ -137,74 +138,17 @@ navbar-default .navbar-form {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-	background-color: black;
-/*	box-shadow: -3px -2px 30px #FA9D04;*/
+	background-color: transparent;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover {
 	color: black;
 	text-shadow: -3px -2px 30px white;
 }
 
-.navbar-default .media-icon:hover,
-.navbar-default .media-icon:focus {
-	color: black;
-	text-shadow: -3px -2px 30px white;
-}
-
-.carousel {
-/*
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-*/
-    margin-bottom: 0px;
-}
+.navbar-default .navbar-nav 
 
 .navbar-fixed-bottom p {
 	font-style: italic;
 	font-size: medium;
 }
-
-.parallax {
-    /* The image used */
-    background-image: url('img/background1.png');
-
-    /* Full height */
-    height: 10%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
-.parallax-end {
-    /* The image used */
-    background-image: url('img/background2.png');
-
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
-/*
-	COLORS:
-	
-	ore dirt: 3F362A
-	blood red: C91900
-	golden rod: DAA520
-	sunset: FA9D04
-	red orange: E7450D;
-	seafoam: #6FCB9F;
-	brown: #2b1d0e
-*/
-
-
