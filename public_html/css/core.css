@@ -22,11 +22,14 @@ body, html {
     height: 100%;
 }
 body {
+    background-image: url(fire.jpg);
     background-color: black;
     margin: auto;
     max-width: 1400px;
 }
-
+.black-background {
+    background-color: black;
+}
 /*	NAVIGATION BAR	*/
 
 #logo {
