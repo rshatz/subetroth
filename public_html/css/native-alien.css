@@ -26,6 +26,10 @@ body {
     margin: auto;
 }
 
+#youtube {
+    float: right;
+}
+
 .black-background {
     background-color: black;
 }
