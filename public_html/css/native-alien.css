@@ -26,8 +26,12 @@ body {
     margin: auto;
 }
 
+.black-background {
+    background-color: black;
+}
+
 .parallax {
-    background-image: url('../img/native-alien/symbol-1.png');
+    background-image: url('../img/custom.png');
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -68,13 +72,11 @@ body {
 }
 
 .parallax-end {
-    /* The image used */
-    background-image: url('../img/native-alien/symbol-2.png');
 
-    /* Full height */
-    height: 75%;
-    transform-style: inherit;
-    /* Create the parallax scrolling effect */
+    background-image: url('../img/custom.png');
+
+    height: 85%;
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
