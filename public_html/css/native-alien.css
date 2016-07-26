@@ -47,7 +47,21 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+}
+
+@media (min-width: 992px) {
+    .parallax {
+        background-image: url('../img/native-alien/symbol-1.png');
+
+        /* Full height */
+        height: 10%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30%;
+    }
 }
 
 .parallax-end {
@@ -56,24 +70,10 @@ body {
 
     /* Full height */
     height: 100%;
-
+    transform-style: inherit;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
 }
-
-/*
-	COLORS:
-	
-	ore dirt: 3F362A
-	blood red: C91900
-	golden rod: DAA520
-	sunset: FA9D04
-	red orange: E7450D;
-	seafoam: #6FCB9F;
-	brown: #2b1d0e
-*/
-
-

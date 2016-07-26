@@ -95,9 +95,9 @@ body {
 }
 
 @media (min-width: 992px) { 
-	.navbar-default .navbar-nav > li > a {	
-		font-size: 300%;
-	}
+    .navbar-default .navbar-nav > li > a {
+        font-size: 300%;
+    }
 	.navbar-default .media-icon {
 		font-size: 175%;
 	}
