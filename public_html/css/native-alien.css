@@ -21,18 +21,6 @@ Extra small
 body, html {
     height: 100%;
 }
-body {
-    background-color: black;
-    margin: auto;
-}
-
-#youtube {
-    float: right;
-}
-
-.black-background {
-    background-color: black;
-}
 
 .parallax {
     background-image: url('../img/custom.png');
