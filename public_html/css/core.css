@@ -28,8 +28,8 @@ body {
 .container-fluid {
     background-color: black;
 }
-/*	NAVIGATION BAR	*/
 
+/*	NAVIGATION BAR	*/
 #logo {
     position: absolute;
     margin-top: 5px;
@@ -133,7 +133,7 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar {	
-	background-color: #FA9D04;
+	background-color: red;
 }
 
 .navbar-default .navbar-collapse, 

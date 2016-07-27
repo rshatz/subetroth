@@ -18,9 +18,16 @@ Extra small
 ≥1200px
 */
 
-body, html {
+.content {
+    padding-top: 20px;
+}
+
+/*
+iframe {
+    width: 100%;
     height: 100%;
 }
+*/
 
 .parallax {
     background-image: url('../img/custom.png');
