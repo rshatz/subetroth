@@ -22,18 +22,10 @@ Extra small
     padding-top: 20px;
 }
 
-/*
-iframe {
-    width: 100%;
-    height: 100%;
-}
-*/
-
 .parallax {
-    background-image: url('../img/custom.png');
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
+    /*background: url('../img/custom.png') no-repeat fixed top;*/
+    width: 872px;
+    height: 780px;
 }
 
 @media (min-width: 0px) {
@@ -72,11 +64,8 @@ iframe {
 
 .parallax-end {
 
-    background-image: url('../img/custom.png');
+    height: 780px;
 
-    height: 85%;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    /*background: url('../img/custom.png') no-repeat fixed center;*/
+    width: 872px;
 }

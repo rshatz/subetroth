@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -8,9 +9,7 @@ and open the template in the editor.
     Author     : ritchie
 */
 
-@charset "UTF-8";
-
-@font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); } 
+@font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); }
 
 /*
 Extra small
@@ -22,10 +21,10 @@ Extra small
 */
 
 body {
-    background-image: url(fire.jpg);
-    background-color: black;
+    background: black url(fire.jpg);
     margin: auto;
     max-width: 1400px;
+    height: auto;
 }
 
 .container-fluid {
@@ -40,7 +39,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-    font-family: neutronium;
+    font-family: neutronium, serif;
     letter-spacing: 3px;
     color: black;
     text-shadow: -3px -2px 10px red;
@@ -53,7 +52,7 @@ body {
 }
 
 #bandcamp {
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     text-decoration: none;
 }
 
@@ -90,7 +89,7 @@ body {
     }
     .navbar-default .media-icon {
 		font-size: 150%;
-        padding-right: 0px;
+        padding-right: 0;
         padding-left: 20px;
 	}
     #logo {
@@ -105,7 +104,7 @@ body {
     }
 	.navbar-default .media-icon {
 		font-size: 175%;
-        padding-right: 0px;
+        padding-right: 0;
         padding-left: 20px;
 	}
     #logo {
@@ -120,7 +119,7 @@ body {
 	}
 	.navbar-default .media-icon {
 		font-size: 200%;
-        padding-right: 0px;
+        padding-right: 0;
         padding-left: 20px;
 	}
     #logo {
@@ -132,15 +131,15 @@ body {
 .navbar-default {
 	background-color: black;
 	border-color: black;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .navbar-default .navbar-toggle .icon-bar {	
 	background-color: red;
 }
 
-.navbar-default .navbar-collapse, 
-navbar-default .navbar-form {
+.navbar-default .navbar-collapse,
+.navbar-default {
     border-color: black;
 }
 

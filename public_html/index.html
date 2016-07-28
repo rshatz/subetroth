@@ -11,21 +11,9 @@ and open the template in the editor.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../jquery.mobile.custom.js">
     <link rel="stylesheet" type="text/css" href="css/core.css">
     <link rel="stylesheet" type="text/css" href="css/native-alien.css">
-    
-    <script>
-  $(document).ready(function() {  
-  		 $("#page-carousel").swiperight(function() {  
-    		  $(this).carousel('prev');  
-	    		});  
-		   $("#page-carousel").swipeleft(function() {  
-		      $(this).carousel('next');  
-	   });  
-	});  
-</script>
-    
+
 </head>
 <body>
     <nav class="navbar navbar-default navbar-top" role="navigation">
@@ -35,7 +23,7 @@ and open the template in the editor.
                     <!-- <span class="sr-only">Toggle navigation</span> -->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>    
+                    <span class="icon-bar"></span>
                 </button>
                 <div class="navbar-left">
                     <img id="logo" src="img/native-alien/Logo.png" class="img-responsive resize" alt="band logo" width="640" height="322">
@@ -71,7 +59,7 @@ and open the template in the editor.
                 <li data-target="#page-carousel" data-slide-to="1"></li>
                 <li data-target="#page-carousel" data-slide-to="2"></li>
                 <li data-target="#page-carousel" data-slide-to="3"></li>
-            </ol>  
+            </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -98,29 +86,84 @@ and open the template in the editor.
             </a>
         </div>
     </div>
-    </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="content">
-                <iframe style="border: 0; width: 350px; height: 654px;" src="https://bandcamp.com/EmbeddedPlayer/album=1611461146/size=large/bgcol=333333/linkcol=e32c14/transparent=true/" seamless><a href="http://subetroth.bandcamp.com/album/native-alien">Native Alien by SUBETROTH</a></iframe>
+                    <iframe style="border: 0; width: 400px; height: 340px;" src="https://bandcamp.com/EmbeddedPlayer/album=1611461146/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="http://subetroth.bandcamp.com/album/native-alien">Native Alien by SUBETROTH</a></iframe>
+                    <div class="col-lg-6">
+                        <h2>Lyrics</h2>
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                        minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible
+                                            Group 2</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse">
+                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                        minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible
+                                            Group 3</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                        minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="content">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/5_YXCF8KolI?rel=0&amp;showinfo=0" frameborder="0"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5_YXCF8KolI"></iframe>
-            </div>
-        </div>
-    </div>
-    <!-- bottom header --> 
     <div class="navbar navbar-default navbar-bottom">
         <div class="container">
             <div class="navbar-text pull-left">
                 <p>2016 Mountain Fire Studio and Subetroth</p>
-            </div>  
+            </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
