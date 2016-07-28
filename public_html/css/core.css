@@ -7,6 +7,9 @@ and open the template in the editor.
     Created on : Jul 14, 2016, 7:33:17 PM
     Author     : ritchie
 */
+
+@charset "UTF-8";
+
 @font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); } 
 
 /*
