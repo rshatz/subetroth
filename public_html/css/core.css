@@ -21,15 +21,10 @@ Extra small
 */
 
 body {
-    /*background: black url(fire.jpg);*/
-    background-image: url(red.jpg);
-    margin: auto;
+    background: url(red.jpg) black;
     max-width: 1400px;
     height: auto;
-}
-
-.container-fluid {
-    background-color: black;
+    margin: auto;
 }
 
 /*	NAVIGATION BAR	*/
@@ -44,9 +39,6 @@ body {
     float: left;
     width:  100px;
     height: auto;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -139,18 +131,16 @@ body {
     }
 }
 
-.navbar-default {
-	background-color: black;
-	border-color: black;
-    margin-bottom: 0;
-}
-
 .navbar-default .navbar-toggle .icon-bar {	
 	background-color: red;
 }
 
-.navbar-default .navbar-collapse,
 .navbar-default {
+    background-color: black;
+    border-color: black;
+}
+
+.navbar-default .navbar-collapse {
     border-color: black;
 }
 
@@ -181,4 +171,8 @@ body {
 .navbar-fixed-bottom p {
 	font-style: italic;
 	font-size: medium;
+}
+
+.navbar {
+    margin: 0;
 }

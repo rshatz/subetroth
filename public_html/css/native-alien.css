@@ -18,8 +18,11 @@ Extra small
 ≥1200px
 */
 
-.content {
-    padding-top: 20px;
+pre {
+    background-color: black;
+    color: white;
+
+    text-align: center;
 }
 
 .parallax {
