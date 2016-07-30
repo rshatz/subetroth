@@ -11,22 +11,6 @@ and open the template in the editor.
 
 @font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); }
 
-/*
-Extra small
-<544px	Small
-≥544px	Medium
-≥768px	Large
-≥992px	Extra large
-≥1200px
-*/
-
-body {
-    background: url(red.jpg) black;
-    max-width: 1400px;
-    height: auto;
-    margin: auto;
-}
-
 /*	NAVIGATION BAR	*/
 #logo {
     position: absolute;
@@ -34,18 +18,11 @@ body {
     z-index: 1;
 }
 
-.store-badge {
-    position: relative;
-    float: left;
-    width:  100px;
-    height: auto;
-}
-
 .navbar-default .navbar-nav > li > a {
     font-family: neutronium, serif;
     letter-spacing: 3px;
     color: black;
-    text-shadow: -3px -2px 10px red;
+    text-shadow: 0px 0px 5px red;
 }
 
 .navbar-default .media-icon {

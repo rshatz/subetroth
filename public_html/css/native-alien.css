@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -7,22 +9,75 @@ and open the template in the editor.
     Created on : Jul 14, 2016, 7:33:17 PM
     Author     : ritchie
 */
-@font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); } 
+@font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); }
 
-/*
-Extra small
-<544px	Small
-≥544px	Medium
-≥768px	Large
-≥992px	Extra large
-≥1200px
-*/
+body {
+    background: url(red.jpg) black;
+    max-width: 1400px;
+    /*height: auto;*/
+    margin: auto;
+}
+
+h1 {
+    font-family: neutronium, serif;
+    letter-spacing: 3px;
+    color: black;
+    text-shadow: 1px 1px 5px blue;
+    font-size: 375%;
+    margin-top: 0;
+}
+
+.panel-title {
+    font-size: 50%;
+}
+.panel-group {
+    background-color: black;
+}
+
+.panel-default {
+    border-color: purple;
+    font-size: 400%;
+    font-family: "Courier New";
+}
+
+.panel > .panel-heading {
+    background-color: black;
+    color: white;
+    text-shadow: 3px 3px 10px purple;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+.row {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.store-badge {
+    /*position: relative;*/
+    float: left;
+    width:  25%;
+    height: auto;
+    padding-top: 10px;
+}
 
 pre {
     background-color: black;
     color: white;
+}
 
-    text-align: center;
+blockquote {
+    border: 0px;
+    font-family: "Courier New";
+    font-size: 200%;
+    color: white;
+    vertical-align: middle;
+    padding-top: 25px;
+    /*margin-top: 50px;*/
 }
 
 .parallax {
