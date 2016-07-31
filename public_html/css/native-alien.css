@@ -58,8 +58,7 @@ h1 {
 }
 
 .store-badge {
-    /*position: relative;*/
-    float: left;
+    display: inline;
     width:  25%;
     height: auto;
     padding-top: 10px;
@@ -121,9 +120,7 @@ blockquote {
 }
 
 .parallax-end {
-
     height: 780px;
-
     /*background: url('../img/custom.png') no-repeat fixed center;*/
     width: 872px;
 }

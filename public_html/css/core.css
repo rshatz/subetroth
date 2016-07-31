@@ -63,6 +63,24 @@ and open the template in the editor.
         height: auto;
     }
 }
+
+@media (max-width: 544px) and (orientation: portrait) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 250%;
+    }
+    .navbar-default .media-icon {
+        font-size: 200%;
+        padding-right: 20px;
+    }
+    #logo {
+        width: 100px;
+        height: auto;
+    }
+    .col-xxs-12 {
+        width: 100%;
+        height: auto;
+    }
+}
 @media (min-width: 768px) {
     .navbar-default .navbar-nav > li > a {
         font-size: 200%;
