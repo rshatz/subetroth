@@ -34,7 +34,7 @@ and open the template in the editor.
             <div class="navbar-collapse collapse">
                 <ul id="links" class="nav navbar-nav navbar-right">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#">The Band</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <!-- social media icon links -->
@@ -44,13 +44,14 @@ and open the template in the editor.
                         <a class="media-icon" href="https://www.facebook.com/SUBETROTH/?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a>
                         <a class="media-icon" href="https://www.youtube.com/watch?v=5_YXCF8KolI" target="_blank"><i class="fa fa-youtube-square"></i></a>
                         <a class="media-icon" href="https://play.spotify.com/artist/0cCcyUnVGSB4z8fFudYZsD" target="_blank"><i class="fa fa-spotify"></i></a>
-                        <a class="media-icon" id="bandcamp" href="https://subetroth.bandcamp.com/" target="_blank">bc</a>
+                        <!--<a class="media-icon" id="bandcamp" href="https://subetroth.bandcamp.com/" target="_blank">bc</a>-->
                     </div>
                 </div>
             </div>
         </div>
     </nav>
 
+    <div id="content-background">
     <!-- Carousel -->
     <div class="container-fluid">
         <div id="page-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -88,37 +89,28 @@ and open the template in the editor.
         </div>
     </div>
 
-    <!-- Download badges -->
-    <!--<div class="container-fluid">-->
-        <!--<div class="row">-->
-            <!--<div class="col-xs-12 col-sm-12 col-med-12 col-lg-12">-->
-                <!--<a href="https://itunes.apple.com/us/album/native-alien/id1086862314?app=music&ign-mpt=uo%3D4" target="_blank">-->
-                    <!--<img src="img/itunes-badge.svg" class="img-responsive store-badge" alt="itunes badge"></a>-->
-
-                <!--<a href="https://play.google.com/store/music/artist/Subetroth?id=Azoud2ttqabb625j5haurzr36pe" target="_blank">-->
-                    <!--<img src="img/google-play-badge.png" class="img-responsive store-badge" alt="google play badge"></a>-->
-
-                <!--<a href="https://www.amazon.com/Native-Alien-Explicit-Subetroth/dp/B01C3WHF7I" target="_blank">-->
-                    <!--<img src="img/amazon-badge.svg" class="img-responsive store-badge" alt="amazon badge">-->
-                <!--</a>-->
-
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-
     <!-- Album cover art -->
     <div class="container-fluid">
         <div class="row">
-            <div class="content-group">
-                <div class="col-xxs-12 col-xs-6 col-sm-6 col-med-6 col-lg-6">
-                    <img src="img/native-alien/album-cover.jpg" class="img-responsive" alt="Album Cover">
+            <div class="col-xxs-12 col-xs-6 col-sm-6 col-med-6 col-lg-6">
+                <img src="img/native-alien/album-cover1.jpg" class="img-responsive" alt="Album Cover">
+                <!-- Download badges -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-med-12 col-lg-12">
+                            <a href="http://hyperurl.co/cplq6c" target="_blank">
+                                <img class="store-badge" src="img/itunes-badge.svg" alt="itunes"></a>
+                            <a href="http://hyperurl.co/1qcfl6" target="_blank">
+                                <img class="store-badge" src="img/amazon-badge.svg" alt="amazon"></a>
+                            <a href="http://hyperurl.co/mb95g4" target="_blank">
+                                <img class="store-badge" src="img/google-play-badge.png" alt="google play"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- bandcamp player -->
-            <div id="content-group">
-                <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <iframe class="img-responsive" style="border: 0; width: 700px; height: 340px;" src="https://bandcamp.com/EmbeddedPlayer/album=1611461146/size=large/bgcol=333333/linkcol=e32c14/artwork=none/transparent=true/" seamless><a href="http://subetroth.bandcamp.com/album/native-alien">Native Alien by SUBETROTH</a></iframe>
-                </div>
+            <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <iframe class="img-responsive" style="border: 0; width: 700px; height: 340px;" src="https://bandcamp.com/EmbeddedPlayer/album=1611461146/size=large/bgcol=333333/linkcol=e32c14/artwork=none/transparent=true/" seamless><a href="http://subetroth.bandcamp.com/album/native-alien">Native Alien by SUBETROTH</a></iframe>
             </div>
         </div>
     </div>
@@ -126,7 +118,7 @@ and open the template in the editor.
     <!-- Reviews -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-med-6 col-lg-6">
+            <div class="col-xs-12 col-sm-12 col-med-8 col-lg-8">
                 <blockquote>
                     <p>This is a magnificently crafted album of very, very heavy sludge with only one purpose in mind, and that is the total destruction of everything.</p>
                     <footer><a href="http://theshrieksfrombelow.blogspot.com/2016/03/subetroth-native-alien.html" target="_blank">The Shrieks From Below</a></footer>
@@ -147,20 +139,19 @@ and open the template in the editor.
 
     <!-- Lyrics Dropdown -->
     <div class="container-fluid">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-        <!--<h1>Lyrics</h1>-->
-            <!-- Mr. Yan -->
-            <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <!--button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"-->
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">Mr. Yan</a>
-                        </h4>
-                    </div>
-                    <div id="collapse-1" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <pre>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <!--<h1>Lyrics</h1>-->
+                <!-- Mr. Yan -->
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">Mr. Yan</a>
+                            </h4>
+                        </div>
+                        <div id="collapse-1" class="panel-collapse collapse">
+                            <pre class="panel-body">
 Lay, barbed fist in the ass.
 And I want it all. Give me more.
 
@@ -201,11 +192,9 @@ We realize we’re all just sluts.
 Well then I’ll just buckle and buy American made shit.
 Microwaves and phones and flat screens. All the shrimp I could possibly eat.
 All of my kid’s toys will be made right here and you can’t take that away.
-                                </pre>
-                            </div>
+                            </pre>
                         </div>
                     </div>
-
                     <!-- Ullr’usa Plague -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -244,7 +233,7 @@ Indoctrinate beliefs, makes the grains of man.
 We’re lied to and paid for.
 It’s not democracy; it’s not what you pledged to.
 It’s made to make you buy.
-                            </pre>
+                        </pre>
                         </div>
                     </div>
 
@@ -289,10 +278,9 @@ Fortune of abandon.
 Now a soul-melted farce, lie beside your title.
 
 You lay so hollow.
-                            </pre>
+</pre>
                         </div>
                     </div>
-
                     <!-- Okker's Shanty -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -333,7 +321,7 @@ Marked with a #forsale hashtag.
 #forrent if the ROI is steady.
 Kings and lords pay for everything,
 but all she wants is her daddy.
-                            </pre>
+</pre>
                         </div>
                     </div>
 
@@ -368,14 +356,17 @@ All we have is each other’s company to subdue the frustration.
 With compassion we will intertwine.
 Come stand with us arm in arm or
 Come at us dude, you’ll get your ass wrecked.
-                            </pre>
+</pre>
                         </div>
                     </div>
-
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="img/native-alien/symbol-2.png" class="img-responsive" alt="alien symbol art" width="400" height="auto"
+                 style="margin: 0 auto 0 auto">
+            </div>
         </div>
-
+    </div>
     <!-- youtube video -->
     <div class="container-fluid">
         <div class="row">
@@ -391,7 +382,7 @@ Come at us dude, you’ll get your ass wrecked.
             </div>
         </div>
     </div>
-
+    </div>
     <div class="navbar navbar-default navbar-bottom">
         <div class="container-fluid">
             <div class="navbar-text pull-left">
@@ -401,5 +392,6 @@ Come at us dude, you’ll get your ass wrecked.
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 </body>
 </html>

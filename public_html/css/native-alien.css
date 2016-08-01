@@ -12,7 +12,10 @@ and open the template in the editor.
 @font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); }
 
 body {
-    background: url(red.jpg) black;
+    background-size: contain;
+    background-repeat: repeat;
+    background: fixed;
+    background-image: url("carbon-1.jpg");
     max-width: 1400px;
     /*height: auto;*/
     margin: auto;
@@ -31,26 +34,39 @@ h1 {
     font-size: 50%;
 }
 .panel-group {
-    background-color: black;
+    background-color: transparent;
 }
 
 .panel-default {
-    border-color: purple;
-    font-size: 400%;
-    font-family: "Courier New";
+    background-color: black;
+    border-color: black;
+    font-size: 450%;
+    font-family: "Courier New", serif;
 }
 
 .panel > .panel-heading {
-    background-color: black;
-    color: white;
-    text-shadow: 3px 3px 10px purple;
+    font-family: neutronium, serif;
+    letter-spacing: 3px;
+    background-image: url("carbon-1.jpg");
+    background-size: auto;
+    color: black;
+    text-shadow: 0px 0px 5px red;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.container-fluid {
-    background-color: black;
-}
+/*#content-background {*/
+    /*!*background: fixed;*!*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-image: url("black-honeycomb.jpg");*/
+    /*!*background-color: black;*!*/
+/*}*/
+
+/*.container-fluid {*/
+    /*background-size: contain;*/
+    /*background: url("black-honeycomb.jpg") no-repeat fixed;*/
+/*}*/
 
 .row {
     margin-bottom: 25px;
@@ -58,19 +74,19 @@ h1 {
 }
 
 .store-badge {
-    display: inline;
-    width:  25%;
+    width:  30%;
     height: auto;
-    padding-top: 10px;
 }
 
 pre {
-    background-color: black;
+    background-image: url("carbon-1.jpg");
+    border-color: black;
     color: white;
+    font-weight: normal;
 }
 
 blockquote {
-    border: 0px;
+    border: 0;
     font-family: "Courier New";
     font-size: 200%;
     color: white;
@@ -98,6 +114,25 @@ blockquote {
         height: 6%;
     }
 }
+
+@media (max-width: 544px) and (orientation: portrait) {
+    /*.navbar-default .navbar-nav > li > a {*/
+        /*font-size: 250%;*/
+    /*}*/
+    /*.navbar-default .media-icon {*/
+        /*font-size: 200%;*/
+        /*padding-right: 20px;*/
+    /*}*/
+    /*#logo {*/
+        /*width: 100px;*/
+        /*height: auto;*/
+    /*}*/
+    .col-xxs-12 {
+        width: 100%;
+        height: auto;
+    }
+}
+
 @media (min-width: 768px) {
     .parallax {
         background-size: 50%;
