@@ -122,7 +122,7 @@ blockquote {
         width: 100%;
         height: 100%;
         z-index: -10;
-        background: url("black-honeycomb.jpg") no-repeat center center;
+        background: url("background-2.png") no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -167,7 +167,7 @@ blockquote {
         background: fixed;
         background-size: contain;
         background-repeat: repeat;
-        background-image: url("black-honeycomb.jpg");
+        background-image: url("background-2.png");
         /*background-color: black;*/
     }
     .parallax {
