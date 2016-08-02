@@ -9,7 +9,7 @@ and open the template in the editor.
 
     <title>Subetroth</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/core.css">
@@ -94,19 +94,6 @@ and open the template in the editor.
         <div class="row">
             <div class="col-xxs-12 col-xs-6 col-sm-6 col-med-6 col-lg-6">
                 <img src="img/native-alien/album-cover1.jpg" class="img-responsive" alt="Album Cover">
-                <!-- Download badges -->
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-med-12 col-lg-12">
-                            <a href="http://hyperurl.co/cplq6c" target="_blank">
-                                <img class="store-badge" src="img/itunes-badge.svg" alt="itunes"></a>
-                            <a href="http://hyperurl.co/1qcfl6" target="_blank">
-                                <img class="store-badge" src="img/amazon-badge.svg" alt="amazon"></a>
-                            <a href="http://hyperurl.co/mb95g4" target="_blank">
-                                <img class="store-badge" src="img/google-play-badge.png" alt="google play"></a>
-                        </div>
-                    </div>
-                </div>
             </div>
             <!-- bandcamp player -->
             <div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -115,27 +102,60 @@ and open the template in the editor.
         </div>
     </div>
 
+    <!-- Download badges -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-med-4 col-lg-4">
+                <a href="http://hyperurl.co/cplq6c" target="_blank">
+                    <img class="store-badge" src="img/itunes-badge.svg" alt="itunes"></a>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-med-4 col-lg-4">
+                <a href="http://hyperurl.co/1qcfl6" target="_blank">
+                    <img class="store-badge" src="img/amazon-badge.svg" alt="amazon"></a>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-med-4 col-lg-4">
+                <a href="http://hyperurl.co/mb95g4" target="_blank">
+                    <img class="store-badge" src="img/google-play-badge.png" alt="google play"></a>
+            </div>
+        </div>
+    </div>
+
     <!-- Reviews -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-med-4 col-lg-4">
+
                 <blockquote>
-                    <p>This is a magnificently crafted album of very, very heavy sludge with only one purpose in mind, and that is the total destruction of everything.</p>
-                    <footer><a href="http://theshrieksfrombelow.blogspot.com/2016/03/subetroth-native-alien.html" target="_blank">The Shrieks From Below</a></footer>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <p>This is a magnificently crafted album of very, very heavy sludge with only one purpose in mind, and that is the total destruction of everything.</p>
+                            <footer><a href="http://theshrieksfrombelow.blogspot.com/2016/03/subetroth-native-alien.html" target="_blank">The Shrieks From Below</a></footer>
+                        </div>
+                    </div>
                 </blockquote>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-med-4 col-lg-4">
                 <blockquote>
-                    <p>If you want pure, extreme doom goodness, check this shit out.</p>
-                    <footer><a href="https://thelizardinblack.net/2016/03/31/subetroth-native-alien/" target="_blank">The Lizard In Black</a></footer>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <p>If you want pure, extreme doom goodness, check this shit out.</p>
+                            <footer><a href="https://thelizardinblack.net/2016/03/31/subetroth-native-alien/" target="_blank">The Lizard In Black</a></footer>
+                        </div>
+                    </div>
                 </blockquote>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-med-4 col-lg-4">
                 <blockquote>
-                    <p>...I’m telling you this 'Native Alien’ (2016) by SUBETROTH is some wild shit.</p>
-                    <footer><a href="http://doomedandstoned.com/post/143844332273/doomaroundtheworld12" target="_blank">Doomed And Stoned</a></footer>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <p>...I’m telling you this 'Native Alien’ (2016) by SUBETROTH is some wild shit.</p>
+                            <footer><a href="http://doomedandstoned.com/post/143844332273/doomaroundtheworld12" target="_blank">Doomed And Stoned</a></footer>
+                        </div>
+                    </div>
                 </blockquote>
             </div>
         </div>
@@ -144,7 +164,7 @@ and open the template in the editor.
     <!-- Lyrics Dropdown -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
             <!--<h1>Lyrics</h1>-->
                 <!-- Mr. Yan -->
                 <div class="panel-group" id="accordion">
@@ -365,10 +385,10 @@ Come at us dude, you’ll get your ass wrecked.
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <img src="img/native-alien/symbol-2.png" class="img-responsive" alt="alien symbol art" width="400" height="auto"
-                 style="margin: 0 auto 0 auto">
-            </div>
+            <!--<div class="col-xs-4 col-sm-4 col-md-4 col-lg-6">-->
+                <!--<img src="img/native-alien/symbol-2.png" class="img-responsive" alt="alien symbol art" width="400" height="auto"-->
+                 <!--style="margin: 0 auto 0 auto">-->
+            <!--</div>-->
         </div>
     </div>
     <!-- youtube video -->

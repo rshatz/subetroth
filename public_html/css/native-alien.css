@@ -26,28 +26,28 @@ body {
     /*margin-top: 0;*/
 /*}*/
 
-.panel-title {
-    font-size: 50%;
+.panel-body {
+    background: rgba(122, 130, 136, 0.2) !important;
 }
-.panel-group {
-    background-color: transparent;
+
+.panel-title {
+    font-size: 200%;
 }
 
 .panel-default {
     background: none;
-    border-color: black;
-    font-size: 450%;
+    border-color: transparent;
     font-family: "Courier New", serif;
 }
 
 .panel > .panel-heading {
-    background: rgba(122, 130, 136, 0.2)!important;
+    background: rgba(122, 130, 136, 0.2) !important;
     font-family: neutronium, serif;
     letter-spacing: 3px;
     color: black;
     text-shadow: 0 0 5px red;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .row {
@@ -56,7 +56,7 @@ body {
 }
 
 .store-badge {
-    width:  30%;
+    width:  50%;
     height: auto;
 }
 
@@ -82,7 +82,8 @@ blockquote {
     height: 780px;
 }
 
-@media (min-width: 0px), (min-width: 544px){
+@media (min-width: 0px), (min-width: 544px),
+(min-width: 768px), (min-width: 992px) {
     body:before {
         content: "";
         display: block;
@@ -92,7 +93,7 @@ blockquote {
         width: 100%;
         height: 100%;
         z-index: -10;
-        background: url("carbon-1.jpg") no-repeat center center;
+        background: url("background.png") no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -111,7 +112,7 @@ blockquote {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px), (min-width: 992px) {
     body:before {
         content: "";
         display: block;
@@ -134,6 +135,19 @@ blockquote {
 }
 
 @media (min-width: 992px) {
+    .parallax {
+        background-size: 50%;
+        height: 8%;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*body:before {*/
+        /*background-size: contain;*/
+        /*background-repeat: repeat;*/
+        /*background: fixed;*/
+        /*background-image: url("red.jpg");*/
+    /*}*/
     body:before {
         content: "";
         display: block;
@@ -143,24 +157,11 @@ blockquote {
         width: 100%;
         height: 100%;
         z-index: -10;
-        background: url("black-honeycomb.jpg") no-repeat center center;
+        background: url("red.jpg") no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }
-    .parallax {
-        background-size: 50%;
-        height: 8%;
-    }
-}
-
-@media (min-width: 1200px) {
-    body:before {
-        background-size: contain;
-        background-repeat: repeat;
-        background: fixed;
-        background-image: url("red.jpg");
     }
     #content-background {
         background: fixed;
