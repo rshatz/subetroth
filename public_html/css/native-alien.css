@@ -26,8 +26,11 @@ body {
     /*margin-top: 0;*/
 /*}*/
 
+
+
 .panel-body {
     background: rgba(122, 130, 136, 0.2) !important;
+    border-radius: 5px;
 }
 
 .panel-title {
@@ -35,6 +38,7 @@ body {
 }
 
 .panel-default {
+    box-shadow: 10px 10px 50px black;
     background: none;
     border-color: transparent;
     font-family: "Courier New", serif;
@@ -55,14 +59,9 @@ body {
     margin-top: 25px;
 }
 
-.store-badge {
-    width:  50%;
-    height: auto;
-}
-
 pre {
     background: rgba(122, 130, 136, 0.2)!important;
-    border-color: black;
+    border-color: transparent;
     color: white;
     font-weight: normal;
 }
