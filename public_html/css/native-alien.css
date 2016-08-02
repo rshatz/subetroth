@@ -17,6 +17,11 @@ body {
     max-width: 1400px;
 }
 
+.list-group .list-group-item {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 3px;
+}
 /*h1 {*/
     /*font-family: neutronium, serif;*/
     /*letter-spacing: 3px;*/
