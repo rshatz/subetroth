@@ -18,9 +18,11 @@ body {
 }
 
 .list-group .list-group-item {
-    margin-right: -15px;
-    margin-left: -15px;
-    padding: 3px;
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-color: darkgray;
+    margin-right: -12px;
+    margin-left: -12px;
+    padding: 5px;
 }
 /*h1 {*/
     /*font-family: neutronium, serif;*/
@@ -110,11 +112,19 @@ blockquote {
 }
 
 @media (max-width: 544px) and (orientation: portrait) {
+    /* Set album art on top of band camp player for small devices in portrait mode. This overrides .col-sm */
     .col-xxs-12 {
         width: 100%;
         height: auto;
     }
 }
+
+/*@media (max-width: 768px) and (orientation: landscape) {*/
+    /*.list-group .list-group-item {*/
+        /*width: 100%;*/
+        /*height: auto;*/
+    /*}*/
+/*}*/
 
 @media (min-width: 768px), (min-width: 992px) {
     body:before {
@@ -146,12 +156,6 @@ blockquote {
 }
 
 @media (min-width: 1200px) {
-    /*body:before {*/
-        /*background-size: contain;*/
-        /*background-repeat: repeat;*/
-        /*background: fixed;*/
-        /*background-image: url("red.jpg");*/
-    /*}*/
     body:before {
         content: "";
         display: block;
