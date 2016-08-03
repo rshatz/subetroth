@@ -12,6 +12,11 @@ and open the template in the editor.
 @font-face { font-family: neutronium; src: url('fonts/neutronium.ttf'); }
 
 /*	NAVIGATION BAR	*/
+
+.navbar {
+    margin: 0;
+}
+
 #logo {
     position: absolute;
     margin-top: 5px;
@@ -146,11 +151,9 @@ and open the template in the editor.
     text-shadow: -3px -2px 30px white;
 }
 
-.navbar-fixed-bottom p {
-	font-style: italic;
-	font-size: medium;
+.navbar-bottom {
+    background: rgba(122, 130, 136, 0.2)!important;
+    border-color: transparent;
 }
 
-.navbar {
-    margin: 0;
-}
+

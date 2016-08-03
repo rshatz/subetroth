@@ -23,17 +23,8 @@ body {
     margin-right: -12px;
     margin-left: -12px;
     padding: 5px;
+    color: white;
 }
-/*h1 {*/
-    /*font-family: neutronium, serif;*/
-    /*letter-spacing: 3px;*/
-    /*color: black;*/
-    /*text-shadow: 1px 1px 5px blue;*/
-    /*font-size: 375%;*/
-    /*margin-top: 0;*/
-/*}*/
-
-
 
 .panel-body {
     background: rgba(122, 130, 136, 0.2) !important;
@@ -99,7 +90,7 @@ blockquote {
         width: 100%;
         height: 100%;
         z-index: -10;
-        background: url("background.png") no-repeat center center;
+        background: url("background.jpg") no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -112,19 +103,18 @@ blockquote {
 }
 
 @media (max-width: 544px) and (orientation: portrait) {
-    /* Set album art on top of band camp player for small devices in portrait mode. This overrides .col-sm */
+    /* Set album cover art on top of back cover art for small devices in portrait mode. */
     .col-xxs-12 {
         width: 100%;
         height: auto;
+        margin: 0;
+    }
+    .col-xxs-4 {
+        width: 33.3333%;
+        height: auto;
+        margin: 0;
     }
 }
-
-/*@media (max-width: 768px) and (orientation: landscape) {*/
-    /*.list-group .list-group-item {*/
-        /*width: 100%;*/
-        /*height: auto;*/
-    /*}*/
-/*}*/
 
 @media (min-width: 768px), (min-width: 992px) {
     body:before {
@@ -136,7 +126,7 @@ blockquote {
         width: 100%;
         height: 100%;
         z-index: -10;
-        background: url("background-2.png") no-repeat center center;
+        background: url("background-2.jpg") no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -165,19 +155,18 @@ blockquote {
         width: 100%;
         height: 100%;
         z-index: -10;
-        background: url("red.jpg") no-repeat center center;
+        background: url("background-2.jpg") no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
-    #content-background {
-        background: fixed;
-        background-size: contain;
-        background-repeat: repeat;
-        background-image: url("background-2.png");
-        /*background-color: black;*/
-    }
+    /*#content-background {*/
+        /*background: fixed;*/
+        /*background-size: contain;*/
+        /*background-repeat: repeat;*/
+        /*background-image: url("background-2.jpg");*/
+    /*}*/
     .parallax {
         background-size: 42%;
         height: 9%;
