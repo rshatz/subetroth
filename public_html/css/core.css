@@ -71,7 +71,7 @@ and open the template in the editor.
 
 @media (min-width: 768px) {
     .navbar-default .navbar-nav > li > a {
-        font-size: 200%;
+        font-size: 250%;
     }
     .navbar-default .media-icon {
 		font-size: 150%;

@@ -17,6 +17,30 @@ body {
     max-width: 1400px;
 }
 
+label {
+    font-size: medium;
+    font-weight: 200;
+    color: white;
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+
+pre {
+    background: rgba(122, 130, 136, 0.2)!important;
+    border-color: transparent;
+    color: white;
+    font-weight: normal;
+}
+
+blockquote {
+    border: 0;
+    font-family: "Courier New", serif;
+    font-size: 200%;
+    color: white;
+    vertical-align: middle;
+    padding-top: 25px;
+}
+
 .bottom-buffer {
     margin-bottom: 50px;
 }
@@ -26,7 +50,6 @@ body {
     border-color: darkgray;
     margin: 0 -12px 5px -12px;
     padding: 5px;
-    color: white;
 }
 
 .panel-body {
@@ -55,22 +78,6 @@ body {
     padding-bottom: 5px;
 }
 
-pre {
-    background: rgba(122, 130, 136, 0.2)!important;
-    border-color: transparent;
-    color: white;
-    font-weight: normal;
-}
-
-blockquote {
-    border: 0;
-    font-family: "Courier New";
-    font-size: 200%;
-    color: white;
-    vertical-align: middle;
-    padding-top: 25px;
-}
-
 @media (min-width: 0px), (min-width: 992px) {
     body:before {
         content: "";
@@ -89,8 +96,8 @@ blockquote {
     }
 }
 
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-    .panel-body {
+@media only screen and (min-width : 0px) and (max-width : 480px) {
+    .review {
         font-size: 50%;
     }
 }
@@ -154,8 +161,4 @@ blockquote {
     height: 780px;
     /*background: url('../img/custom.png') no-repeat fixed center;*/
     width: 872px;
-}
-
-.youtube {
-    margin-bottom: 120px;
 }
