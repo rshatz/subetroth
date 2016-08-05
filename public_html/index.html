@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -51,49 +51,50 @@ and open the template in the editor.
         </div>
     </nav>
 
-    <div id="content-background">
     <!-- Carousel -->
     <div class="container-fluid">
-        <div id="page-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#page-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#page-carousel" data-slide-to="1"></li>
-                <li data-target="#page-carousel" data-slide-to="2"></li>
-                <li data-target="#page-carousel" data-slide-to="3"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="img/native-alien/band-1.jpg" alt="picture of band members">
+        <div class="row bottom-buffer">
+            <div id="page-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#page-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#page-carousel" data-slide-to="1"></li>
+                    <li data-target="#page-carousel" data-slide-to="2"></li>
+                    <li data-target="#page-carousel" data-slide-to="3"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/native-alien/band-1.jpg" alt="picture of band members">
+                    </div>
+                    <div class="item">
+                        <img src="img/native-alien/band-2.jpg" alt="picture of band members">
+                    </div>
+                    <div class="item">
+                        <img src="img/native-alien/band-3.jpg" alt="picture of band members">
+                    </div>
+                    <div class="item">
+                        <img src="img/native-alien/band-4.jpg" alt="picture of band members">
+                    </div>
                 </div>
-                <div class="item">
-                    <img src="img/native-alien/band-2.jpg" alt="picture of band members">
-                </div>
-                <div class="item">
-                    <img src="img/native-alien/band-3.jpg" alt="picture of band members">
-                </div>
-                <div class="item">
-                    <img src="img/native-alien/band-4.jpg" alt="picture of band members">
-                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#page-carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#page-carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#page-carousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#page-carousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
     </div>
 
     <!-- Album cover art -->
     <div class="container-fluid">
-        <div class="row">
+        <div class="row bottom-buffer">
             <div class="col-xxs-12 col-xs-6 col-sm-6 col-med-6 col-lg-6">
-                <img src="img/native-alien/front-cover.png" class="img-responsive" alt="Album Cover">
+                <img src="img/native-alien/front-cover.png" class="img-responsive bottom-buffer" alt="Album Cover">
             </div>
 
             <div class="col-xxs-12 col-xs-6 col-sm-6 col-med-6 col-lg-6">
@@ -102,32 +103,35 @@ and open the template in the editor.
         </div>
     </div>
 
-        <!-- bandcamp player -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xxs-12 col-xs-offset-3 col-xs-6 col-sm-offset-3 col-sm-6 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
-                    <iframe class="img-responsive" style="border: 0; width: 700px; height: 340px;" src="https://bandcamp.com/EmbeddedPlayer/album=1611461146/size=large/bgcol=333333/linkcol=e32c14/artwork=none/transparent=true/" seamless><a href="http://subetroth.bandcamp.com/album/native-alien">Native Alien by SUBETROTH</a></iframe>
-                </div>
+    <!-- bandcamp player -->
+    <div class="container-fluid">
+        <div class="row bottom-buffer">
+            <div class="col-xxs-12 col-xs-offset-2 col-xs-8 col-sm-offset-3 col-sm-6 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
+                <iframe class="img-responsive" style="border: 0; width: 700px; height: 340px;" src="https://bandcamp.com/EmbeddedPlayer/album=1611461146/size=large/bgcol=333333/linkcol=e32c14/artwork=none/transparent=true/" seamless><a href="http://subetroth.bandcamp.com/album/native-alien">Native Alien by SUBETROTH</a></iframe>
             </div>
         </div>
+    </div>
 
     <!-- Download badges -->
     <div class="container-fluid">
-        <div class="row">
+        <div class="row bottom-buffer">
             <div class="list-group">
-                <div class="col-xxs-4 col-xs-offset-3 col-xs-2 col-sm-offset-3 col-sm-2 col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
+                <div class="col-xxs-12 col-xs-4 col-sm-offset-3 col-sm-2 col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
                     <a href="http://hyperurl.co/cplq6c" class="list-group-item" target="_blank">
-                        <i class="fa fa-apple fa-2x" aria-hidden="true" style="color: whitesmoke;"></i>itunes</a>
+                        <i class="fa fa-apple fa-2x" aria-hidden="true" style="color: whitesmoke;"></i>itunes
+                    </a>
                 </div>
 
-                <div class="col-xxs-4 col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="col-xxs-12 col-xs-4 col-sm-2 col-md-2 col-lg-2">
                     <a href="http://hyperurl.co/1qcfl6" class="list-group-item" target="_blank">
-                        <i class="fa fa-amazon fa-2x" aria-hidden="true" style="color: #ff9900;"></i>amazon</a>
+                        <i class="fa fa-amazon fa-2x" aria-hidden="true" style="color: #ff9900;"></i>amazon
+                    </a>
                 </div>
 
-                <div class="col-xxs-4 col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="col-xxs-12 col-xs-4 col-sm-2 col-md-2 col-lg-2">
                     <a href="http://hyperurl.co/mb95g4" class="list-group-item" target="_blank">
-                        <i class="fa fa-google fa-2x" aria-hidden="true" style="color: #34a853;"></i>google play</a>
+                        <i class="fa fa-google fa-2x" aria-hidden="true" style="color: #34a853;"></i>google play
+                    </a>
                 </div>
             </div>
         </div>
@@ -135,7 +139,7 @@ and open the template in the editor.
 
     <!-- Reviews -->
     <div class="container-fluid">
-        <div class="row">
+        <div class="row bottom-buffer">
             <div class="col-xs-12 col-sm-12 col-med-4 col-lg-4">
 
                 <blockquote>
@@ -174,9 +178,8 @@ and open the template in the editor.
 
     <!-- Lyrics Dropdown -->
     <div class="container-fluid" style="text-align: center">
-        <div class="row">
+        <div class="row bottom-buffer">
             <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
-            <!--<h1>Lyrics</h1>-->
                 <!-- Mr. Yan -->
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default panel-transparent">
@@ -189,21 +192,18 @@ and open the template in the editor.
                             <pre class="panel-body">
 Lay, barbed fist in the ass.
 And I want it all. Give me more.
-
 BJ Clinton shook hands.
 Sold as freedom.
 Peril bought cheap.
 Cancer villages.
 Organ harvest.
 Maximized cum swap.
-
 We all know that sound.
 Man’s own greed runs down fallen, whining.
 Yuan operates ballsack plying.
 Planned the evening of giving thanks,
 slave and child alike die
 so patrons can live a fabricated lie.
-
 Folded knees.
 Bending weak.
 Locked in iron. Uniform.
@@ -214,16 +214,12 @@ Chub-filled beak.
 The Great Wall, passage one way.
 Cries charred all for a plead.
 I won this nightmare.
-
 Boeing, GE, Apple, and Intel operate to make my home strong.
 They’re all American, so we thrive. Am I right?
 CAT, IBM, Microsoft, Motorola all soar.
 This all helps me right?
-
 Wrong. You cannot feed your wants, your needs, without me.
-
 We realize we’re all just sluts.
-
 Well then I’ll just buckle and buy American made shit.
 Microwaves and phones and flat screens. All the shrimp I could possibly eat.
 All of my kid’s toys will be made right here and you can’t take that away.
@@ -241,19 +237,14 @@ All of my kid’s toys will be made right here and you can’t take that away.
                             <pre class="panel-body">
 News is mapped by the hand that nurtures the ideal.
 Doctrine blueprint manufactured for consent.
-
 Using alms as a way to perpetuate beloved conjecture is not the poison,
 using it to maintain the current mercantile system is.
-
 Political and economical equality are the same.
 If we were equal, the gilded would fall.
 We are not equal by their fathers’ hand.
-
 Lee, Lippman, and Bernays sell Madison’s vision for the nobles to command.
 Bruce, Carlin, and Stewart elucidate the empire’s evasion.
-
 Battle is the bloom of the state.
-
 On that day in September, we united to get us some Texas Tea.
 The terrorist magic show perfectly designed.
 Patriots calling to the sound of war.
@@ -261,7 +252,6 @@ The effigy of nuclear reign sacked by the hands of counterfeit natives.
 We fall for it every time.
 Blind dogs
 We obey
-
 Alliance creed compensated with pain.
 Hawked our heritage.
 Indoctrinate beliefs, makes the grains of man.
@@ -285,25 +275,19 @@ We lift from our shadow.
 We’re drained of our marrow.
 We stray from our battles.
 We lay so hollow.
-
 Slight in weight for what you bring around.
 A cast and clone you make, plaudits go to you.
 Now a soul-melted farce, lie beside your title.
 Giants shrug you off.
-
 Runts plowed, running from their innards.
 Watch them trespass and cower in the fracas.
-
 Lifeline is out, you’re all red.
 Can’t stand, social forum is your pillar.
 No staunch brace, no stout mask.
 You’re not quite who you think you are.
-
 A sure posture, and generic poise.
-
 Who am I?
 I’m nobody, just like you.
-
 We dropped from our routine.
 We’ve come for your bathos.
 Slight in weight for what you bring around.
@@ -311,7 +295,6 @@ We expand on the purpose.
 A cast and clone you make, plaudits stay from you.
 Fortune of abandon.
 Now a soul-melted farce, lie beside your title.
-
 You lay so hollow.
 </pre>
                         </div>
@@ -329,18 +312,15 @@ In foreign fields crawl.
 Frantic wind chimes singing lore.
 She’s coming, he’s waiting, the wind’s so loud.
 Can’t feel her feet, tracks in the snow are long.
-
 Maintained. Incestuous.
 They’re all gone, yet she sees them here.
 She’s dying, he’s moaning, the pain is long.
 Here, way out here,
 here he’s god.
-
 Who are all these mother fuckers who can’t get their dick into something earned?
 Where are all the piece of shit faggot fathers who lost tabs on their blood?
 Painting faces with the germination of a seed. “Look up at me.”
 How fucking romantic.
-
 Every country and every creed
 preys on the molestation of a hole.
 Filled with hopes and dick and dreams and screams
@@ -348,10 +328,8 @@ and all get swallowed whole.
 Young sponge.
 Pure heart.
 Soaked with madness.
-
 Break lines easily. Shame.
 Core wretched. Slow hold slipping away.
-
 Marked with a #forsale hashtag.
 #forrent if the ROI is steady.
 Kings and lords pay for everything,
@@ -373,19 +351,15 @@ Hedonic structure keeps the edge serrated.
 Identity is not found in abundance, but your fellow man.
 Rise. Let’s light it up.
 We must build a new way.
-
 Skyscrapers as monuments to our existence, then we exist for naught.
 A basic altruistic way of life has fleeted with inequality.
 We must endure for those with character and crush those who do not.
 Love is not the path of least resistance, don’t be a pussy and flee.
-
 It’s our way
 Res Judicata
-
 The 545 that run and 1% that own
 need to know we will be idle no longer.
 True anarchy is not chaos, it’s love and order.
-
 Top heavy nation makes you lose your mind.
 All we have is each other’s company to subdue the frustration.
 With compassion we will intertwine.
@@ -399,22 +373,22 @@ Come at us dude, you’ll get your ass wrecked.
 
         </div>
     </div>
+
     <!-- youtube video -->
     <div class="container-fluid">
-        <div class="row">
+        <div class="row bottom-buffer">
             <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
                 <div class="content">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item"
                                 src="https://www.youtube.com/embed/5_YXCF8KolI?rel=0&amp;showinfo=0" frameborder="0"
-                                allowfullscreen>
-                        </iframe>
+                                allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+
     <div class="navbar navbar-default navbar-bottom">
         <div class="container-fluid">
             <div class="navbar-text pull-left">

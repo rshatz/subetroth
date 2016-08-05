@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /*
 To change this license header, choose License Headers in Project Properties.
@@ -17,11 +17,14 @@ body {
     max-width: 1400px;
 }
 
+.bottom-buffer {
+    margin-bottom: 50px;
+}
+
 .list-group .list-group-item {
     background: rgba(0, 0, 0, 0.8) !important;
     border-color: darkgray;
-    margin-right: -12px;
-    margin-left: -12px;
+    margin: 0 -12px 5px -12px;
     padding: 5px;
     color: white;
 }
@@ -52,11 +55,6 @@ body {
     padding-bottom: 5px;
 }
 
-.row {
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-
 pre {
     background: rgba(122, 130, 136, 0.2)!important;
     border-color: transparent;
@@ -73,14 +71,7 @@ blockquote {
     padding-top: 25px;
 }
 
-.parallax {
-    /*background: url('../img/custom.png') no-repeat fixed top;*/
-    width: 872px;
-    height: 780px;
-}
-
-@media (min-width: 0px), (min-width: 544px),
-(min-width: 768px), (min-width: 992px) {
+@media (min-width: 0px), (min-width: 992px) {
     body:before {
         content: "";
         display: block;
@@ -96,9 +87,11 @@ blockquote {
         -o-background-size: cover;
         background-size: cover;
     }
-    .parallax {
-        background-size: 50%;
-        height: 6%;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .panel-body {
+        font-size: 50%;
     }
 }
 
@@ -132,17 +125,6 @@ blockquote {
         -o-background-size: cover;
         background-size: cover;
     }
-    .parallax {
-        background-size: 50%;
-        height: 7%;
-    }
-}
-
-@media (min-width: 992px) {
-    .parallax {
-        background-size: 50%;
-        height: 8%;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -160,16 +142,6 @@ blockquote {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }
-    /*#content-background {*/
-        /*background: fixed;*/
-        /*background-size: contain;*/
-        /*background-repeat: repeat;*/
-        /*background-image: url("background-2.jpg");*/
-    /*}*/
-    .parallax {
-        background-size: 42%;
-        height: 9%;
     }
 }
 
