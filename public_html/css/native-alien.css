@@ -107,6 +107,11 @@ blockquote {
         height: auto;
         margin: 0;
     }
+    .col-xxs-offset-3 {
+        width: 50%;
+        height: auto;
+        margin: 0 25% 0 25%;
+    }
 }
 
 @media (min-width: 768px), (min-width: 992px) {
@@ -149,4 +154,8 @@ blockquote {
     height: 780px;
     /*background: url('../img/custom.png') no-repeat fixed center;*/
     width: 872px;
+}
+
+.youtube {
+    margin-bottom: 120px;
 }
