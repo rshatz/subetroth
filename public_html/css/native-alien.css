@@ -17,6 +17,10 @@ body {
     max-width: 1400px;
 }
 
+.facebook-buttons {
+    max-width: 150px; 
+    margin: 0 auto 0 auto;
+}
 label {
     font-size: medium;
     font-weight: 200;
