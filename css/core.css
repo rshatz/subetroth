@@ -91,6 +91,7 @@ and open the template in the editor.
     #logo {
         width: 22%;
         height: auto;
+        margin-left: -50px;
     }
 }
 
@@ -106,6 +107,7 @@ and open the template in the editor.
     #logo {
         width: 22%;
         height: auto;
+        margin-left: -100px;
     }
 }
 
@@ -150,7 +152,5 @@ and open the template in the editor.
     background: rgba(122, 130, 136, 0.2)!important;
     border-color: transparent;
 }
-
-
 
 
