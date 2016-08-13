@@ -77,7 +77,7 @@ blockquote {
     font-family: neutronium, serif;
     letter-spacing: 3px;
     color: black;
-    text-shadow: 0 0 5px red;
+    text-shadow: 0 0 2px red;
     padding-top: 5px;
     padding-bottom: 5px;
 }

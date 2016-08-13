@@ -27,13 +27,12 @@ and open the template in the editor.
     font-family: neutronium, serif;
     letter-spacing: 3px;
     color: black;
-    text-shadow: 0 0 5px red;
+    text-shadow: 0 0 3px red;
 }
 
 .navbar-default .media-icon {
 	color: black;
-	text-shadow: -3px -2px 10px red;
-    padding-right: 10px;
+	text-shadow: 0 0 5px red;
 }
 
 @media (min-width: 0px) {
@@ -76,6 +75,7 @@ and open the template in the editor.
     #logo {
         width: 22%;
         height: auto;
+        margin-left: -15px;
     }
 }
 
@@ -91,7 +91,6 @@ and open the template in the editor.
     #logo {
         width: 22%;
         height: auto;
-        margin-left: -50px;
     }
 }
 
@@ -106,8 +105,7 @@ and open the template in the editor.
 	}
     #logo {
         width: 22%;
-        height: auto;
-        margin-left: -100px;
+        height: auto;  
     }
 }
 
