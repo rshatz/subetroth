@@ -73,7 +73,7 @@ blockquote {
     font-family: "Courier New", serif;
 }
 
-.panel > .panel-heading {
+.panel .panel-heading {
     background: rgba(122, 130, 136, 0.2) !important;
     font-family: neutronium, serif;
     letter-spacing: 3px;
@@ -81,6 +81,11 @@ blockquote {
     text-shadow: 0 0 3px red;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.panel-heading:hover {
+    color: black;
+	text-shadow: 0 0 20px white;
 }
 
 .lyrics {
