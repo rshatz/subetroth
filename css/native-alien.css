@@ -62,7 +62,8 @@ blockquote {
 }
 
 .panel-title {
-    font-size: 200%;
+    font-size: 300%;
+    font-weight: 500;
 }
 
 .panel-default {
@@ -77,9 +78,19 @@ blockquote {
     font-family: neutronium, serif;
     letter-spacing: 3px;
     color: black;
-    text-shadow: 0 0 2px red;
+    text-shadow: 0 0 3px red;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.lyrics {
+    font-size: 110%;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.panel-group {
+    text-align: center;
 }
 
 @media (min-width: 0px), (min-width: 544px) {
@@ -97,14 +108,6 @@ blockquote {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }
-    .panel-group {
-        text-align: center;
-    }
-    .lyrics {
-        font-size: 100%;
-        word-break: break-word;
-        white-space: pre-wrap;
     }
 }
 
@@ -129,6 +132,12 @@ blockquote {
         width: 50%;
         height: auto;
         margin: 0 25% 0 25%;
+    }
+    .lyrics {
+        font-size: 100%;
+    }
+    .panel-title {
+        font-size: 240%;
     }
 }
 
