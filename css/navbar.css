@@ -37,21 +37,7 @@ and open the template in the editor.
 
 @media (min-width: 0px) {
     .navbar-default .navbar-nav > li > a {
-        font-size: 250%;
-    }
-    .navbar-default .media-icon {
-		font-size: 200%;
-        padding-right: 20px;
-	}
-    #logo {
-        width: 100px;
-        height: auto;
-    }
-}
-
-@media (min-width: 544px) {
-    .navbar-default .navbar-nav > li > a {
-        font-size: 300%;
+        font-size: 350%;
     }
     .navbar-default .media-icon {
 		font-size: 200%;
@@ -63,7 +49,28 @@ and open the template in the editor.
     }
 }
 
+@media (min-width: 544px) {
+    .navbar-default .navbar-nav {
+        padding-top: 20px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 400%;
+        font-weight: 500;
+    }
+    .navbar-default .media-icon {
+		font-size: 200%;
+        padding-right: 20px;
+	}
+    #logo {
+        width: 140px;
+        height: auto;
+    }
+}
+
 @media (min-width: 768px) {
+    .navbar-default .navbar-nav {
+        padding-top: 0;
+    }
     .navbar-default .navbar-nav > li > a {
         font-size: 250%;
     }
@@ -80,6 +87,9 @@ and open the template in the editor.
 }
 
 @media (min-width: 992px) { 
+    .navbar-default .navbar-nav {
+        padding-top: 0;
+    }
     .navbar-default .navbar-nav > li > a {
         font-size: 300%;
     }
@@ -95,6 +105,9 @@ and open the template in the editor.
 }
 
 @media (min-width: 1200px) {
+    .navbar-default .navbar-nav {
+        padding-top: 0;
+    }
     .navbar-default .navbar-nav > li > a {	
 		font-size: 400%;
 	}
